@@ -1,0 +1,99 @@
+/* styling of input and labels in metabox */
+.cai-meta-label{
+    width: 25%
+}
+.cai-meta-input{
+    width: 75%
+}
+.cai-meta-input> input{
+    height: 28px;
+    width:100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  .cai-meta-input> textarea{
+    width:100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  .input{
+    margin: 1% 0%
+  }
+  .input> input[type=text]{
+    height: 28px;
+    width:50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  .input> input[type=number]{
+    height: 28px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 1% 0% 1% 10%;
+  }
+  .input > .delete{ /* delete button in meta box */
+    color: red;
+    font-size: large;
+    margin: 1% 3%;
+  }
+  .cai-table tr > td > select { /* select in settings */
+    cursor:pointer;
+    display:inline-block;
+    position:relative;
+    color:black;
+    width: 50%;
+    border-radius: 3px;
+    border:1px solid #ccc;
+}
+/* save buttons */
+#Update_style{ 
+  float: right;
+}
+#Update1{
+  float: right;
+}
+/* ------------------- table-------------------------- */
+
+.cai-table{
+  width: 100%;
+}
+/* ------------------- tabs-------------------------- */
+ul.cai-team-tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  ul.cai-team-tabs li {
+    background: #0085ba;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: medium;
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  
+  ul.cai-team-tabs li.current {
+    background: #55c56e;
+    color: white;
+    font-size: medium;
+  
+  }
+  
+  .cai-tab-content {
+    display: none;
+    background: white;
+    padding: 15px;
+  }
+  
+  .cai-tab-content.current {
+    display: inherit;
+  }
+ 

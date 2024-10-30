@@ -1,0 +1,148 @@
+.cai-fullpage-container{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    padding: 2%  10%;
+	text-align: initial;
+}
+
+.w3-light-grey .w3-round-xlarge{
+  z-index: 1;
+  background-size: 50px 50px;
+  animation: move 2s linear infinite;
+  overflow: hidden;
+  height: 14px;
+}
+
+.w3-container .w3-blue .w3-round-xlarge{
+    height: 14px;
+    font-size: 11px;
+}
+.w3-round-xlarge{
+    text-align: right;
+    font-size: 9px;
+    font-weight: bold;
+}
+.cai-about{
+    padding: 0% 1%;
+    height: 130px;
+    overflow:auto;
+}
+.cai-fullpage-container{
+    width:100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap;
+    padding: 0% 4%;
+}
+
+.meter { 
+	height: 20px; 
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(43,194,83);
+    background-image: linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+    );
+    box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+  }
+hr{
+    margin: 0px 1% !important;
+    max-width: 100% !important;
+    
+    }
+.cai-member-contact > span{
+    padding: 2% 1%;
+}
+.cai-member-pic > img{
+    border-radius: 9%;
+}
+.cai-member-pic{
+    width: 35%;
+    padding: 2%;
+}
+.cai-member-info {
+    display: flow-root;
+    width: 65%;
+    padding: 1% 0% 0% 0%;
+}
+@media screen and (min-width: 551px) {
+    .cai-socialicons > .fa {
+        width: 12% !important;
+         }
+}
+@media screen and (max-width: 699px) {
+
+	.cai-member-skillbar{
+        width: 100%;
+        padding: 1%;
+    }
+}
+@media screen and (max-width: 780px) {
+    .cai-member-contact :nth-child(2) {
+        display: none;
+    }
+    .cai-member-contact{
+        display: grid;
+    }
+
+    .cai-member-contact > span{
+        padding: 0% 0%;
+    }
+}
+@media screen and (max-width: 551px) {
+
+    .cai-member-pic{
+        width: 100%;
+        padding: 2%;
+    }
+    .cai-member-info {
+        width: 100%;
+        padding: 1% 0%;
+    }
+    .cai-socialicons > .fa {
+       width: 20% !important;
+        }
+}
+    
+@media screen and (min-width: 700px) {
+   .cai-member-skillbar{ 
+   width:50%; 
+   padding:1%
+}
+.cai-socialicons > .fa {
+        width:7%  !important;
+        }
+.cai-member-pic{
+            width: 25%;
+            padding: 2%;
+}
+.cai-member-info {
+            width: 75%;
+            padding: 1% 0% 0% 0%;
+}
+}
+@media screen and (min-width: 1200px) {
+.cai-socialicons > .fa {
+        width:5%  !important;
+ }
+}
